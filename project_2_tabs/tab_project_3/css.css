@@ -1,0 +1,77 @@
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    border: 1px outset green;
+    color: white;
+    background-color: orange;
+    width: 100px;
+    margin: -2px;
+    position: relative;
+    cursor: pointer;
+}
+
+#analiste{
+    text-align: center;
+}
+#analiste>li{
+    box-shadow: 3px 2px 5px grey;
+    border-radius: 3px 3px 3px 3px;
+    top: 10px;
+    -webkit-transition:all 0.6s ease;
+} 
+.altliste{
+    position: absolute;
+    top: 33;
+    left: 1px;
+    display: none;
+    box-shadow: 3px 2px 5px gray;
+    border-radius: 0px 0px 5px 0px;
+    -webkit-animation-duration: 0.7s;
+}
+.altliste>li{
+    display: block;
+    -webkit-animation-duration: 0.5s;
+}
+
+#analiste li:hover ul{
+    display: block;
+    -webkit-animation-name: altliste;
+}
+@-webkit-keyframes altliste{
+    0% {
+        opacity: 0;
+        left: -150px;
+        }
+    50% {-webkit-transform: skew(10deg);
+        box-shadow: -10px 4px 8px 5px darkred;
+         }
+    100% {opacity: 1;
+        left: 1px;}
+}
+#analiste>li:hover{
+    background-color: lightblue;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px outset lightblue;
+    color: brown;
+    text-shadow: 1px 1px 1px gray;
+}
+.altliste li:last-child{
+    border-radius: 0px 0px 6px 6px;
+}
+.altliste>li:hover{
+    background-color: darkred;
+    text-shadow: 2px 2px 2px gray;
+    -webkit-transform:scale(1.1);
+    -webkit-animation-name: secim;
+}
+@-webkit-keyframes secim{
+    0% {}
+    50% {-webkit-transform: scale(1.15);}
+    100% {-webkit-transform: scale(1.1);}
+}
