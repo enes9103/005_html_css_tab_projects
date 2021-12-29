@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: center;
+}
+#analiste{
+    padding-top: 50px;
+    width: 200px;
+
+}
+#analiste>li{
+    background-color: orange;
+    border: 1px outset green;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+} 
+.altliste{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: 150px;
+    display: none;
+}
+.altliste li{
+    background-color: darkred;
+    border: 1px outset darkred;
+    border-radius: 5px;
+    padding: 2px;
+}
+#analiste li:hover{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+#analiste li:hover ul{
+    display: block;
+}
