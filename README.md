@@ -28,8 +28,11 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ## Project Outcome
 ![Project gif](Animation 1.gif)
+
 ![Project gif](Animation 2.gif)
+
 ![Project gif](Animation 3.gif)
+
 ![Project gif](Animation 4.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
