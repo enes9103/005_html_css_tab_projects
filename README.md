@@ -27,14 +27,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Project Outcome
---Card project--
-![Project gif](Animation1.gif)
---Tabs project1--                                               
+![Project gif](Animation1.gif)                                           
  ![Project gif](Animation2.gif)
- <br/>
- --Tabs project2--
  ![Project gif](Animation3.gif)
---Tabs project3--
 ![Project gif](Animation4.gif)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
